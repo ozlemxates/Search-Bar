@@ -1,0 +1,75 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ .container .icon {
+    width:490px ;
+    height: 170px;
+    padding: 10px;
+    margin-top: -210px;
+    margin-right: -550px; 
+} 
+
+.container{
+    width:100% ;
+    min-height:100vh ;
+    padding:5% ;
+    background-image: linear-gradient(rgb(213, 193, 169), rgb(126, 112, 95));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    width:100% ;
+    height:50px ;
+    max-width:650px;
+    background: rgb(233, 228, 228);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding:10 20 ;
+}
+
+.searchbar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    padding: 25px 25px;
+    color: black;
+}
+.searchbar button {
+    border: 0;
+    border-radius: 50%;
+    margin-right:11px;
+    width: 30px; 
+    height: 30px;
+}
+.placeholder{
+    color: black;
+}
+
+.button {
+    margin-top: 90px;
+    margin-left: -450px;
+}
+
+.button .search-btn {
+    background: linear-gradient(rgb(191, 178, 125),rgb(198, 179, 179));
+    border-radius: 15px;
+    border: 0;
+
+}
+
+.button .lucky-btn{
+    background: linear-gradient(rgb(191, 178, 125),rgb(198, 179, 179));
+    border-radius: 15px;
+    border: 0;
+    
+
+}
